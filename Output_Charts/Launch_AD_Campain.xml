@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">day_of_week</Data></Cell>
+			<Cell><Data ss:Type="String">total</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="String">Thursday</Data></Cell>
+			<Cell><Data ss:Type="String">16</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Sunday</Data></Cell>
+			<Cell><Data ss:Type="String">16</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Friday</Data></Cell>
+			<Cell><Data ss:Type="String">15</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Tuesday</Data></Cell>
+			<Cell><Data ss:Type="String">14</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Monday</Data></Cell>
+			<Cell><Data ss:Type="String">14</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Wednesday</Data></Cell>
+			<Cell><Data ss:Type="String">13</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">Saturday</Data></Cell>
+			<Cell><Data ss:Type="String">12</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>
