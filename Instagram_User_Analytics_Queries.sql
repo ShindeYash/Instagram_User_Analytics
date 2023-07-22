@@ -74,5 +74,40 @@ GROUP BY day_of_week
 ORDER BY total DESC;
 
 
+# User Engagement: to find do users are still active and posting on Instagram. 
+# Finding how many times does average user posts on Instagram. Also, provide the total number of photos on Instagram/total number of users.
 
+# To Calculate Average post per user
+SELECT
+    (SELECT COUNT(*) FROM photos) / (SELECT COUNT(*) FROM users) 
+    AS average_photoes;
+
+# To calculate total posts of each user.
+
+SELECT 
+    ROW_NUMBER() OVER (ORDER BY user_post_count DESC) AS index_column,
+    user_id,
+    user_post_count
+FROM (
+    SELECT user_id, COUNT(*) AS user_post_count
+    FROM photos
+    GROUP BY user_id
+) AS user_post_counts
+ORDER BY index_column;
+
+# Bots & Fake Accounts: 
+# The investors want to know if the platform is crowded with fake and dummy accounts. 
+# By providing data on the users who have liked every single photo on the site. (Because normal users don’t like every photo)
+
+select * from users;
+select * from likes;
+
+SELECT COUNT(*) FROM likes group by user_id;
+
+SELECT
+  id, username,
+  (SELECT COUNT(*) FROM likes WHERE user_id = users.id) AS total_likes_per_user
+FROM users
+HAVING
+  total_likes_per_user = (SELECT COUNT(*) FROM photos);
 

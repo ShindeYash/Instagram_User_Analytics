@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">id</Data></Cell>
+			<Cell><Data ss:Type="String">username</Data></Cell>
+			<Cell><Data ss:Type="String">total_likes_per_user</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+			<Cell><Data ss:Type="String">Aniya_Hackett</Data></Cell>
+			<Cell><Data ss:Type="String">257</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">14</Data></Cell>
+			<Cell><Data ss:Type="String">Jaclyn81</Data></Cell>
+			<Cell><Data ss:Type="String">257</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">21</Data></Cell>
+			<Cell><Data ss:Type="String">Rocio33</Data></Cell>
+			<Cell><Data ss:Type="String">257</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">24</Data></Cell>
+			<Cell><Data ss:Type="String">Maxwell.Halvorson</Data></Cell>
+			<Cell><Data ss:Type="String">257</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">36</Data></Cell>
+			<Cell><Data ss:Type="String">Ollie_Ledner37</Data></Cell>
+			<Cell><Data ss:Type="String">257</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">41</Data></Cell>
+			<Cell><Data ss:Type="String">Mckenna17</Data></Cell>
+			<Cell><Data ss:Type="String">257</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">54</Data></Cell>
+			<Cell><Data ss:Type="String">Duane60</Data></Cell>
+			<Cell><Data ss:Type="String">257</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">57</Data></Cell>
+			<Cell><Data ss:Type="String">Julien_Schmidt</Data></Cell>
+			<Cell><Data ss:Type="String">257</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">66</Data></Cell>
+			<Cell><Data ss:Type="String">Mike.Auer39</Data></Cell>
+			<Cell><Data ss:Type="String">257</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">71</Data></Cell>
+			<Cell><Data ss:Type="String">Nia_Haag</Data></Cell>
+			<Cell><Data ss:Type="String">257</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">75</Data></Cell>
+			<Cell><Data ss:Type="String">Leslie67</Data></Cell>
+			<Cell><Data ss:Type="String">257</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">76</Data></Cell>
+			<Cell><Data ss:Type="String">Janelle.Nikolaus81</Data></Cell>
+			<Cell><Data ss:Type="String">257</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">91</Data></Cell>
+			<Cell><Data ss:Type="String">Bethany20</Data></Cell>
+			<Cell><Data ss:Type="String">257</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>
